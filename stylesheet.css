@@ -13,6 +13,11 @@ body {
     color: #f9faf8;
 }
 
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
 .subtext,
 .header-links {
     font-size: 18px;
@@ -29,14 +34,33 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
+    padding: 16px;
 }
 
-.bottom-row button {
+.bottom-row {
+    display: flex;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.bottom-left {
     display: flex;
     flex-direction: column;
-    justify-self: start;
+    gap: 16px;
+}
+
+.bottom-row img {
+    height: 150px;
+    width: auto;
+    margin-left: auto;
+}
+
+.bottom-row button { 
+    display: flex;
     background-color: #3882f6;
+    justify-self: start;
+    width: fit-content;
 }
 
 h2 {
@@ -48,34 +72,41 @@ h2 {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 }
 
 .container img {
     width: auto;
-    height: 250px;
+    height: 150px;
     border: 2px solid #1f2937;
+    border-radius: 10px;
+}
+
+.text {
+    margin-top: 8px;
 }
 
 .quote {
     background-color: #e5e7eb;
     margin-top: auto;
-    height: 200px;
+    height: auto;
 }
 
 h3 {
-    font-size: 36px;
-    font-style: light-italic;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
     color: #1f2937;
-    display: flex;
-    justify-content: center;
+    padding: 16px;
 }
 
-h4 {
+.quote h4 {
     display: flex;
     justify-content: flex-end;
     font-weight: lighter;
+    padding: 16px;
 }
 
 .action {
@@ -87,4 +118,13 @@ h4 {
     height: 100px;
     background-color: #1f2937;
     margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    color: #e5e7eb;
+    font-weight: 100;
+    margin: 0;
 }
