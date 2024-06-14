@@ -32,14 +32,11 @@ body {
     margin-bottom: 48px;
 }
 
-.bottom-row {
+.bottom-row button {
     display: flex;
     flex-direction: column;
-}
-
-.button {
     justify-self: start;
-    color: #3882f6;
+    background-color: #3882f6;
 }
 
 h2 {
@@ -58,4 +55,36 @@ h2 {
 .container img {
     width: auto;
     height: 250px;
+    border: 2px solid #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    margin-top: auto;
+    height: 200px;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: light-italic;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: lighter;
+}
+
+.action {
+    height: 100px;
+    margin-top: 100px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    margin-top: 0;
 }
