@@ -1,7 +1,7 @@
 # landing-page  
 I'm going to create a landing page. The theme will be Best Picture Winners.  
   
-Credits
+Credits  
 By Paramount Pictures - impawards.com, Public Domain, https://commons.wikimedia.org/w/index.php?curid=10475470 (Wings)  
 By MGM - source, Public Domain, https://commons.wikimedia.org/w/index.php?curid=37518672 (The Broadway Melody)  
 By Universal Pictures - site, Public Domain, https://commons.wikimedia.org/w/index.php?curid=40715664 (All Quiet On The Western Front)  
