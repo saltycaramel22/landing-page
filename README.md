@@ -1,5 +1,5 @@
 # landing-page  
-I created a landing page. The theme is Best Picture Winners starting from the very first movie to win it (though it wasn't called that back then.
+I created a landing page. The theme is Best Picture Winners starting from the very first movie to win it (though it wasn't called that back then).
   
 Credits  
 By Graph+sas - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=68630123 (Academy Awards)  
