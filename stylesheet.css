@@ -41,6 +41,7 @@ body {
 .bottom-row {
     display: flex;
     padding: 16px;
+    padding-bottom: 50px;
     margin-bottom: 12px;
 }
 
@@ -92,8 +93,10 @@ h2 {
 
 .quote {
     background-color: #e5e7eb;
-    margin-top: auto;
-    height: auto;
+    margin-top: 50px;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .quote h3 {
@@ -116,6 +119,11 @@ h2 {
     height: 200px;
     justify-content: center;
     align-items: center;
+}
+
+.action-quote {
+    display: flex;
+    flex-direction: column;
 }
 
 .call-box {
